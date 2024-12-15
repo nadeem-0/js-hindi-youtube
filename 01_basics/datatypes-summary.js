@@ -32,8 +32,32 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof bigNumber);    //undefined
-console.log(typeof outsideTemp);  //Object
-console.log(typeof scoreValue);   //Number
-console.log(typeof myFunction);   //function
-console.log(typeof anotherId);    //symbol
+// console.log(typeof bigNumber);    //undefined
+// console.log(typeof outsideTemp);  //Object
+// console.log(typeof scoreValue);   //Number
+// console.log(typeof myFunction);   //function
+// console.log(typeof anotherId);    //symbol
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);  //hiteshchoudharydotcom
+console.log(anothername);    // chaiaurcode
+
+let userOne = {
+    email: "user@google.com"
+   
+}
+
+let userTwo = userOne
+
+userTwo.email = "nadeem@google.com"
+
+console.log(userOne.email);    //nadeem@google.com
+console.log(userTwo.email);    //nadeem@google.com
