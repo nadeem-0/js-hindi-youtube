@@ -22,9 +22,9 @@ console.log(JsUser["email"])
 console.log(JsUser["full name"])
 console.log(JsUser[mySym])
 
-JsUser.email = "nadeem@chatgpt.com"
+JsUser.email = "nadeem@google.com"
 // Object.freeze(JsUser)
-JsUser.email = "nadeem@microsoft.com"
+JsUser.email = "nadeem@google.com"
 console.log(JsUser);
 
 JsUser.greeting = function(){
